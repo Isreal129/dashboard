@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  //base: '/dashboard/', // This is the base URL of your GitHub Pages site
+  base: '/dashboard/', // This is the base URL of your GitHub Pages site
 });
