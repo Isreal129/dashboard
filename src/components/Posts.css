@@ -1,0 +1,105 @@
+/* src/pages/Posts.css */
+
+.posts-container {
+    max-width: 800px;
+    margin: 20px auto; /* Center align and add some margin */
+    padding: 20px;
+    background-color: #f0f0f0; /* Light gray background for the container */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff; /* White background for posts */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  .post h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 1.5rem; /* Larger font size for post titles */
+  }
+  
+  .post h3 {
+    color: #555; /* Color for post comments heading */
+  }
+  
+  h1 {
+    color: #555; /* Color for main heading */
+  }
+  
+  .post-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .post p {
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  .comment {
+    margin-left: 20px;
+    padding-left: 10px;
+    border-left: 2px solid #ddd;
+    margin-top: 10px;
+    color: #555; /* Darker color for comments */
+  }
+  
+  .comment p {
+    margin: 0;
+    color: #777; /* Slightly lighter than main text color */
+  }
+  
+  .comment-input-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .comment-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 1rem; /* Adjust font size */
+  }
+  
+  .comment-submit-button {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .comment-submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .notification {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .notification-icon {
+    position: absolute;
+    top: 10px; /* Adjust position as needed */
+    right: 20px; /* Adjust position as needed */
+    font-size: 1.5rem; /* Adjust icon size */
+    color: #007bff; /* Adjust icon color */
+  }
+  
