@@ -17,8 +17,8 @@ const App = () => {
 const Home = () => {
   return (
     <div>
-      <h1>Welcome to the Social Media App</h1>
-      <a href="/posts">View Posts</a>
+      <center><h1>Welcome to the Social Media App</h1></center>
+      <center><a href="/posts">View Posts</a></center>
     </div>
   );
 };
